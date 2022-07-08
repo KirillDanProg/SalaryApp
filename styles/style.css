@@ -175,7 +175,7 @@ body .show {
 
 body .main-container {
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 
 body .main-container .role-name {
@@ -193,5 +193,10 @@ body .total {
 
 body .text-date {
   font-size: 1rem;
+}
+
+input[type="date"]::before {
+  content: attr(placeholder);
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
